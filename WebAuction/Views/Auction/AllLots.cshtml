@@ -1,0 +1,57 @@
+﻿@model IEnumerable<WebAuction.Models.Lot>
+
+@{
+    ViewBag.Title = "AllLots";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>All Lots</h2>
+
+<p>
+    @Html.ActionLink("Add lot", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BuyOutPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartPrice)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Bet)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BuyOutPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Bet)
+            </td>
+            <td>
+                @Html.ActionLink("Details", "Lot", new {id = item.Id}) |
+            </td>
+        </tr>
+    }
+
+</table>

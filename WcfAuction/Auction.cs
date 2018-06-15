@@ -7,15 +7,15 @@ using System.Text;
 
 namespace WcfAuction
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Service1" in both code and config file together.
-    public class Service1 : IService1
+    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "Auction" in both code and config file together.
+    public class Auction : IAuction
     {
         public string GetData(int value)
         {
             return string.Format("You entered: {0}", value);
         }
 
-        public CompositeType GetDataUsingDataContract(CompositeType composite)
+        public Lot GetDataUsingDataContract(Lot composite)
         {
             if (composite == null)
             {

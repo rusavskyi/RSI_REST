@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27604.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAuction", "WcfAuction\WcfAuction.csproj", "{63F26370-9F9D-4253-A8A3-2FDEF5088DCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAuction", "WebAuction\WebAuction.csproj", "{CE4D3798-A27E-4F3D-B732-8BA5C1C60B5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfAuctionREST", "WcfAuctionREST\WcfAuctionREST.csproj", "{CD8F7683-9AE5-4468-B9DC-36777A98023F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{63F26370-9F9D-4253-A8A3-2FDEF5088DCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{63F26370-9F9D-4253-A8A3-2FDEF5088DCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{63F26370-9F9D-4253-A8A3-2FDEF5088DCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{63F26370-9F9D-4253-A8A3-2FDEF5088DCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE4D3798-A27E-4F3D-B732-8BA5C1C60B5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE4D3798-A27E-4F3D-B732-8BA5C1C60B5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE4D3798-A27E-4F3D-B732-8BA5C1C60B5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE4D3798-A27E-4F3D-B732-8BA5C1C60B5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD8F7683-9AE5-4468-B9DC-36777A98023F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD8F7683-9AE5-4468-B9DC-36777A98023F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD8F7683-9AE5-4468-B9DC-36777A98023F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD8F7683-9AE5-4468-B9DC-36777A98023F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
